@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(1, 1, 46);
+}
+
+#all {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Turret Road", serif;
+  font-weight: 400;
+  border: 1px solid red;
+  width: 20%;
+  margin-left: 20px;
+}
+
+#profImg {
+  border-radius: 50%;
+}
+
+#bio {
+  color: white;
+  margin-top: 50px;
+}
+
+#location {
+  color: white;
+  margin-top: 20px;
+}
+
+#highlights {
+  color: white;
+  margin-top: 20px;
+}
+
+#organizations {
+  color:white;
+  margin-top: 20px;
+}
+
+#sponsors {
+color: white;
+margin-top: 20px;
+}
+
+.sponsor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-content:space-around;
+  border: 1px solid red;
+  width:70%;
+  /* margin-left:; */
+  /* position: fixed;
+  top: 0; */
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+}
+
+#pinned {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#repoCard {
+  width: 35%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#form {
+  border: 1px solid rgb(0, 0, 172);
+  margin-top: 20px;
+}
+
+#footerDiv {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 150px;
+color: white;
+} 
+
+#footUl {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
